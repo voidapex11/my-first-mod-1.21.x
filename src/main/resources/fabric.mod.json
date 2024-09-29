@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "my-first-mod",
+	"version": "${version}",
+	"name": "my-first-mod",
+	"description": "This is my first mod!!!!",
+	"authors": [
+		"voidapex11"
+	],
+	"contact": {
+		"homepage": "https://voidapex11.github.io/",
+		"sources": "https://github.com/voidapex11/Myfirstmod-1.21.x"
+	},
+	"license": "GLP-3.0",
+	"icon": "assets/my-first-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.voidapex11.myfirstmod.Myfirstmod"
+		],
+		"fabric-datagen": [
+			"com.voidapex11.myfirstmod.MyfirstmodDataGenerator"
+		],
+		"client": [
+			"com.voidapex11.myfirstmod.myfirstmodClientClass"
+		]
+	},
+	"mixins": [
+		"my-first-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

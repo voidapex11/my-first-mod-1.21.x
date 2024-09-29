@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.voidapex11.myfirstmod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
